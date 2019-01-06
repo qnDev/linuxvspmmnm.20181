@@ -1,0 +1,13 @@
+total 232
+drwxr-xr-x 2 quangnd quangnd  4096 Oct  8 07:15 .
+drwxr-xr-x 5 quangnd quangnd  4096 Oct  6 18:50 ..
+-rw-r--r-- 1 quangnd quangnd 15341 Sep 20 08:02 Chuong1_BTLyThuyet_TongQuan.docx
+-rw-r--r-- 1 quangnd quangnd 85006 Sep 20 08:02 Chuong1_BTTH_TongQuan.docx
+-rw-r--r-- 1 quangnd quangnd  9172 Oct  8 06:11 Chuong3_BTLyThuyet_QLTienTrinh.docx
+-rw-r--r-- 1 quangnd quangnd 15582 Sep 25 04:21 Chuong3_BTTH_QLTienTrinh.docx
+-rw-r--r-- 1 quangnd quangnd 15951 Oct  8 06:21 Chuong4_BTLyThuyet_BackupLogCrond.docx
+-rw-r--r-- 1 quangnd quangnd 22126 Oct  8 06:22 Chuong4_BTTH_BackupLogCrond.docx
+-rw-r--r-- 1 quangnd quangnd 10895 Sep 18 05:41 Dap_an_Chuong2_BTLyThuyet_HeThongTep.docx
+-rw-r--r-- 1 quangnd quangnd 15800 Sep 18 19:33 Dap_an_Chuong2_BTTH_HeThongTep.docx
+-rw-r--r-- 1 quangnd quangnd    83 Oct  8 06:11 .~lock.Chuong3_BTLyThuyet_QLTienTrinh.docx#
+-rw-r--r-- 1 quangnd quangnd     0 Oct  8 07:15 test.txt

@@ -1,0 +1,22 @@
+﻿Bài 1:
+1.Tạo một tệp mới: $touch test.txt
+2.Cho biết quyền sử dụng của các nhóm đối tượng trên tệp: ls -l test.txt
+3.Thay đổi quyền sử dụng của các nhóm đối tượng sao cho: chủ sở hữu chỉ có quyền ghi,nhóm sở hữu chỉ có quyền đọc ,người dùng khác không có quyền gì: chmod 240 test.txt
+4.Đổi chủ sở hữu về cho root: sudo chown root test.txt
+
+
+Bài 2:
+1.Viết câu lệnh tìm kiếm thông tin về tiến trình bash đang chạy trên máy: ps -aux|grep bash 
+2.Viết lệnh tìm tệp "test" từ thư mục gốc,xuất kết quả lên màn hình và xuất báo lỗi ra file log.txt:  find / -name "test" 2>>log.txt
+3.Thực hiện lệnh tạo file dulieu.dat với nội dung "Du lieu thu nghiem" trong thư muc "mydir" trong thư mục cá nhân: cd ~ && mkdir mydir && echo "Du lieu thu nghiem">mydir/dulieu.dat
+
+Bài 3:Cho file dulieu.dat
+20090991?Phạm Đình Lê Hảo?Ginggon91@gmail.com?012345678	
+20091134?Phạm Duy Hoàn?Redriver91@Gmail.com?0438686868	
+20091171?Nguyễn Xuân Hoàng?nguyenxuanhoang281@gmail.com?0112233445	
+20091432?Đặng Văn Khánh?Naka_houn1311@yahoo.com?0112233446	
+20091505?Lê Hoàng Kiên?Uno_s2@yahoo.com?01692233445 
+20091596?Ngô Hải Linh?Hoacotu326@yahoo.com?0972727272	
+-­-­Kết	thúc tệp—---
+1.Viết câu lệnh trích chọn tên ,SDT của sinh viên mã số X: grep "X" dulieu.dat | cut -d? -f2,4
+2.Viết câu lệnh sắp xếp các sinh viên theo số hiệu sinh viên: sort -n -t? -kl duliet.dat

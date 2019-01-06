@@ -1,0 +1,6 @@
+Nguyen Van Binh:23/05/1990:Phu Tho:Nam
+Nguyen Thi Binh:23/05/1990:Phu Tho:Nam
+Nguyen Van Huyen:15/02/1984:Hung Yen:Nu
+Nguyen Van Binh:23/05/1990:Phu Tho:Nam
+Nguyen Thi Binh:23/05/1990:Phu Tho:Nam
+Nguyen Van Huyen:15/02/1984:Hung Yen:Nu

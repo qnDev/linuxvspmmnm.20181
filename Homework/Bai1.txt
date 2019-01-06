@@ -1,0 +1,7 @@
+1.Hiển thị đường dẫn đến thư mục hiện tại: pwd
+2.Di chuyển vào thư mục cá nhân: cd ~
+3.Hiển thị nội dung của thư mục này: ls -la
+4.tạo một thư mục trong thư mục cá nhân,đặt tên là folder1: mkdir folder1
+5.Copy tệp /etc/passwd vào thư mục folder1 ở trên: cp /etc/passwd folder1
+6.Copy tệp /etc/passwd vào thư mục folder1 ở trên và đặt tên là newfile: cp /etc/passwd folder1/newfile
+7.Xóa thư mục folder1 ở trên : rm folder1

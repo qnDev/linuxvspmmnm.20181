@@ -1,0 +1,13 @@
+1.Di chuyển vào thư mục cá nhân: cd ~
+2.Tạo thư mục dir1: mkdir dir1 
+3.Tạo thư mục dir2 trong dir1: mkdir -p dir1/dir2
+4.In ra đường dẫn tuyệt đối đến dir2:   cd dir1/dir2 
+										pwd
+5.Tạo tệp file1 trong dir2 bằng  lệnh echo: echo "Tao file bang echo">file1
+6.Tạo file2 trong dir1 liên kết vật lý đến file1: ln file1 ../file2
+7.Tạo file3 trong dir1 liên kết biểu tượng đến file1: ln file1 ../file3
+8.Di chuyển file1 đến thư mục dir1: mv file1 ..
+9.Xem file2 bằng  lệnh cat,kết quả thế nào; cd .. 
+											cat file2 -> File 2 se hien noi dung file1: Tao file bang echo
+10.Xem file3 bằng lệnh cat,kết quả thế nào: cat file3 -> File 3 se hien noi dung file 1:Tao file bang echo
+11.Tìm trong thư mục cá nhân tất cả các tệp có tên bắt đầu bằng "test" và có kích thước lớn hơn hoặc bằng 4MB: find ~ -name "test*" -size 8192
